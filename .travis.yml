@@ -4,5 +4,9 @@ python:
   - "3.9"
   - "3.10"
 
+branches:
+  only:
+    - main
+
 script: 
   - docker ps
